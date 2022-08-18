@@ -22,16 +22,17 @@
   margin: 30px;
   color: #fff;
   font-size: 40px;
-  flex-grow: 1;
+
 }
 
 .i2 {
   height: 200px;
-  flex-grow: 3;
+  flex-basis: 300px;
 }
 
 .i3{
   order: 1;
+  flex: 1;
 }
 
 .i4{
