@@ -25,9 +25,13 @@
 
 .i2 {
   height: 200px;
+}
 
+.i3{
+  order: 1;
 }
 
 .i4{
   align-self: flex-end;
+  order: -1;
 }
