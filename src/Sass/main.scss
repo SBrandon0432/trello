@@ -8,12 +8,13 @@
 .container {
   background-color: #ccc;
   padding: 10px;
-
+  height: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  align-content: center;
 }
 
 .item {
@@ -38,6 +39,6 @@
 }
 
 .i4{
-  align-self: flex-end;
+  // align-self: flex-end;
   order: -1;
 }
