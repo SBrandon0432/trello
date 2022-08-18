@@ -1,9 +1,4 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-}
+@import './Base/base.scss';
 
 .container {
   background-color: #ccc;
