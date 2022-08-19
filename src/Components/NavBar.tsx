@@ -4,7 +4,9 @@ const NavBar = () => {
 
 
   return (
-    null
+    <div className="content">
+      nav
+    </div>
   )
 }
 

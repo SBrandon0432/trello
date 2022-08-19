@@ -4,7 +4,9 @@ const TopHeader = () => {
 
 
   return (
-    null
+    <header className="header">
+      header bar
+    </header>
   )
 }
 
