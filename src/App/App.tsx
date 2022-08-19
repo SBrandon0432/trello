@@ -1,11 +1,12 @@
-import Header from "../Components/Header";
+import React from "react";
+import TopHeader from "../Components/TopHeader";
 
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Header />
+        <TopHeader/>
       </div>
     </div>
   );
