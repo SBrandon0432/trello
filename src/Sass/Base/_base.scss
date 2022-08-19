@@ -15,4 +15,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
+  background-image: linear-gradient(
+    to right bottom,
+    $primary,
+    $primary-dark);
+    background-size: cover;
 }

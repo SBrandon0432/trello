@@ -1,8 +1,9 @@
+@import './Abstracts/variables';
+@import './Abstracts/functions';
+@import './Abstracts/mixins';
+
 @import './Base/base';
 @import './Base/animations';
 @import './Base/typogophy';
 @import './Base/utilities';
 
-@import './Abstracts/functions';
-@import './Abstracts/mixins';
-@import './Abstracts/variables';
