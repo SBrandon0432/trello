@@ -3,7 +3,9 @@ const SideBar = () => {
 
 
   return(
-    null
+    <nav className="sidebar">
+
+    </nav>
   )
 }
 
