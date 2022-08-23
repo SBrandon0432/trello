@@ -6,6 +6,7 @@ const NavBar = () => {
   return (
     <div className="content">
       nav
+      <SideBar/>
     </div>
   )
 }
