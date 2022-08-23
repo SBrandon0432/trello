@@ -1,4 +1,4 @@
-
+import SideBar from "./SideBar";
 
 const NavBar = () => {
 
