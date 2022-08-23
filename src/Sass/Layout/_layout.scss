@@ -19,11 +19,12 @@
 .sidebar {
   background-color: $color-gray-dark-1;
   flex: 0 0 18% // flex: grow | shrink | basis
+
 }
 
 .hotel-view {
-
-  background-color: #fff;
+  background-color: yellow;
+  flex: 1;
 
 }
 
