@@ -1,6 +1,7 @@
 import React from "react";
 import TopHeader from "../Components/TopHeader";
 import NavBar from "../Components/NavBar";
+import Main from "../Components/Main";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="container">
         <TopHeader/>
         <NavBar />
+        <Main />
       </div>
     </div>
   );
