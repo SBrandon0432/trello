@@ -1,6 +1,7 @@
 
 const Main = () => {
 
+
   return (
     <main className="hotel-view">
       HotelView
