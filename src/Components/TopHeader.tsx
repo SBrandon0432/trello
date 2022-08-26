@@ -18,17 +18,21 @@ const TopHeader = () => {
       </form>
 
       <nav className='user-nav'>
+
         <div className='user-nav__icon-box'>
           <svg className='user-nav__icon'>
             <use xlinkHref={`${iconSprite}#icon-bookmark`}/>
           </svg>
+
         </div>
 
         <div className='user-nav__icon-box'>
+
           <svg className='user-nav__icon'>
             <use xlinkHref={`${iconSprite}#icon-chat`}/>
           </svg>
         </div>
+
       </nav>
 
     </header>
