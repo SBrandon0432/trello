@@ -4,7 +4,7 @@ const SideBar = () => {
 
   return(
     <nav className="sidebar">
-      Navigation
+     side bar Navigation
     </nav>
   )
 }
