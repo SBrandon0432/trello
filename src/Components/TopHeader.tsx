@@ -1,5 +1,6 @@
 import logo from '../Assets/img/logo.png'
 import iconSprite from '../Assets/img/sprite.svg'
+import userPhoto from '../Assets/img/user.jpg';
 
 const TopHeader = () => {
 
@@ -34,7 +35,9 @@ const TopHeader = () => {
           <span className='user-nav__notification'>14</span>
 
         </div>
-
+        <div className='user-nav__user'>
+          <img className='user-nav__user-photo' src={userPhoto} alt='user-profile-pic'/>
+        </div>
       </nav>
 
     </header>
