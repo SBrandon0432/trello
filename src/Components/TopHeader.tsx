@@ -5,6 +5,7 @@ const TopHeader = () => {
 
   return (
     <header className="header">
+
       <img src={logo} alt='logo' className='logo'/>
       <form action="#" className='search'>
         <input className='search__input' placeholder='Search Hotels'/>
@@ -12,6 +13,8 @@ const TopHeader = () => {
           Search
         </button>
       </form>
+
+
     </header>
   )
 }
