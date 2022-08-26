@@ -36,7 +36,8 @@ const TopHeader = () => {
 
         </div>
         <div className='user-nav__user'>
-          <img className='user-nav__user-photo' src={userPhoto} alt='user-profile-pic'/>
+          <img className='user-nav__user-photo' src={userPhoto} alt='user profile pic'/>
+          <span className='user-nav__user-name' >Jonas</span>
         </div>
       </nav>
 
