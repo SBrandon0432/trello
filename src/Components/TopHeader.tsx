@@ -1,11 +1,11 @@
-
+import logo from '../Assets/img/logo.png'
 
 const TopHeader = () => {
 
 
   return (
     <header className="header">
-      header bar
+      <img src={logo} alt='logo' className='logo'/>
     </header>
   )
 }
