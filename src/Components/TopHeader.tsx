@@ -1,4 +1,5 @@
 import logo from '../Assets/img/logo.png'
+import iconMagnifyingGlass from '../Assets/img/sprite.svg'
 
 const TopHeader = () => {
 
@@ -10,7 +11,9 @@ const TopHeader = () => {
       <form action="#" className='search'>
         <input className='search__input' placeholder='Search Hotels'/>
         <button className='search__button'>
-          Search
+          <svg className='search__icon'>
+            <use xlinkHref={`${iconMagnifyingGlass}#icon-magnifying-glass`}/>
+          </svg>
         </button>
       </form>
 
