@@ -2,7 +2,7 @@ import logo from '../Assets/img/logo.png'
 import iconSprite from '../Assets/img/sprite.svg'
 import userPhoto from '../Assets/img/user.jpg';
 
-const TopHeader = () => {
+const TopHeader = (props) => {
 
 
   return (
