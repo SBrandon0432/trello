@@ -1,5 +1,5 @@
 
-const SideBar = () => {
+const SideBar = (props: any) => {
 
 
   return(
