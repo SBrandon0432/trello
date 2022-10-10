@@ -9,7 +9,6 @@
 
 ////// Search Box /////////
   .search {
-    background-color: red;
     flex:  0 0 40%;
     display: flex;
     align-items: center;
@@ -44,6 +43,8 @@
 
       &:focus {
         outline: none;
+        background-color: $color-gray-light-3;
+
       }
 
       &:active {
