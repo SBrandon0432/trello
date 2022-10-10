@@ -105,7 +105,8 @@
 
 
     &__user {
-
+      display: flex;
+      align-items: center;
     }
 
     &__user-photo {
