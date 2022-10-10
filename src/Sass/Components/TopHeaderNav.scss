@@ -24,11 +24,17 @@
       border-radius: 100px;
       width: 90%;
       margin-right: -3.5rem;
+      transition: all .2s;
 
       &:focus {
         outline: none;
         width: 100%;
         background-color: $color-gray-light-3;
+      }
+
+      &::-webkit-input-placeholder {
+        font-weight: 100;
+        color: $color-gray-light-4;
       }
 
     }
