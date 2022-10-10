@@ -34,9 +34,13 @@
 
     }
 
+    &__icon:focus + &__button {
+      background-color: $color-gray-light-3;
+    }
+
     &__button {
       border: none;
-      background-color: var($color-gray-light-2);
+      background-color: $color-gray-light-2;
 
       &:focus {
         outline: none;
