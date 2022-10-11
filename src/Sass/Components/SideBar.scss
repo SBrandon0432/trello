@@ -1,0 +1,35 @@
+.side-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+
+  &__item {
+
+  }
+
+
+  &__link {
+
+
+  }
+
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+}
+
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: $color-gray-light-4;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import TopHeader from "../Components/TopHeader";
 import SideBar from "../Components/SideBar";
-import Main from "../Components/Main";
+import HotelView from "../Components/HotelView";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
         <div className="content">
           <SideBar/>
-          <Main />
+          <HotelView />
        </div>
 
     </div>

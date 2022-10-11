@@ -44,7 +44,9 @@ const SideBar = (props: any) => {
         </li>
 
 
-
+          <div className='legal'>
+            &copy; 2017 by Trillo. All rights reserved.
+          </div>
       </ul>
 
 
