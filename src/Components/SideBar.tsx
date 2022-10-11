@@ -42,19 +42,11 @@ const SideBar = (props: any) => {
             <span>Tours</span>
           </a>
         </li>
-
-
-          <div className='legal'>
-            &copy; 2017 by Trillo. All rights reserved.
-          </div>
       </ul>
 
-
-
-
-
-
-
+      <div className='legal'>
+        &copy; 2017 by Trillo. All rights reserved.
+      </div>
 
     </nav>
   )

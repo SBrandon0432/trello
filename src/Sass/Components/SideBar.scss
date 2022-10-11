@@ -1,8 +1,5 @@
 .side-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+
 
 
   &__item {
@@ -28,6 +25,8 @@
 }
 
 .legal {
+
+
   font-size: 1.2rem;
   text-align: center;
   padding: 2.5rem;
