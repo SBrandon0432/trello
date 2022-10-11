@@ -12,8 +12,39 @@ const SideBar = (props: any) => {
             <svg className="side-nav__icon">
               <use xlinkHref={`${iconSprite}#icon-home`}></use>
             </svg>
+            <span>Hotel</span>
           </a>
         </li>
+
+        <li className="side-nav__item">
+          <a href="/#" className="side-nav__link">
+            <svg className="side-nav__icon">
+              <use xlinkHref={`${iconSprite}#icon-home`}></use>
+            </svg>
+            <span>Flight</span>
+          </a>
+        </li>
+
+        <li className="side-nav__item">
+          <a href="/#" className="side-nav__link">
+            <svg className="side-nav__icon">
+              <use xlinkHref={`${iconSprite}#icon-home`}></use>
+            </svg>
+            <span>Car Rental</span>
+          </a>
+        </li>
+
+        <li className="side-nav__item">
+          <a href="/#" className="side-nav__link">
+            <svg className="side-nav__icon">
+              <use xlinkHref={`${iconSprite}#icon-home`}></use>
+            </svg>
+            <span>Tours</span>
+          </a>
+        </li>
+
+
+
       </ul>
 
 
