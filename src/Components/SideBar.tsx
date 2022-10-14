@@ -4,7 +4,7 @@ import iconSprite from '../Assets/img/sprite.svg'
 const SideBar = (props: any) => {
 
 
-  return(
+  return (
     <nav className="sidebar">
       <ul className="side-nav">
         <li className="side-nav__item">
@@ -45,11 +45,12 @@ const SideBar = (props: any) => {
       </ul>
 
       <div className='legal'>
-        &copy; 2017 by Trillo. All rights reserved.
+        &copy; 2022 by Trillo. All rights reserved.
       </div>
 
     </nav>
   )
+
 }
 
 
