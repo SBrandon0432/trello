@@ -30,7 +30,8 @@
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
-    fill: $color-gray-light-1;
+    // fill: $color-gray-light-1;
+    fill: currentColor; // color of the parent element
 
     &:focus {
       outline: none;
