@@ -3,10 +3,17 @@
   list-style: none;
   margin-top:3.5rem ;
 
+  & > *:hover {
+    background-color: $color-gray-dark-2;
+  }
 
   &__item {
+    &:focus {
+      outline: none;
+    }
 
   }
+
 
 
   &__link:link,
@@ -27,14 +34,14 @@
 
     &:focus {
       outline: none;
+
     }
+
   }
 
 }
 
 .legal {
-
-
   font-size: 1.2rem;
   text-align: center;
   padding: 2.5rem;
