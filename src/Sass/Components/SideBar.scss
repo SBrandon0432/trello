@@ -13,6 +13,9 @@
   &__link:visited {
     color: $color-gray-light-1;
     text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1.4rem 3rem;
   }
 
 
