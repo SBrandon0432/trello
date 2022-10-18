@@ -1,10 +1,10 @@
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
-  margin-top:3.5rem ;
+  margin-top: 3.5rem;
 
-  & > *:hover {
-    background-color: $color-gray-dark-2;
+  &>*:hover {
+    background-color: $color-primary;
   }
 
   &__item {
@@ -14,15 +14,17 @@
 
   }
 
-
-
   &__link:link,
   &__link:visited {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
     color: $color-gray-light-1;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
-    padding: 1.4rem 3rem;
+
+    padding: 1.4rem 4.5rem;
   }
 
 
@@ -32,6 +34,8 @@
     margin-right: 2rem;
     // fill: $color-gray-light-1;
     fill: currentColor; // color of the parent element
+
+
 
     &:focus {
       outline: none;
