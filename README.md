@@ -1,6 +1,6 @@
 # Trello APP
 
-built by sam brandon
+built by Sam Brandon a frontend MERN stack engineer
 
 to run dev build -- npm run start
 
