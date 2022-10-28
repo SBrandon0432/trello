@@ -28,7 +28,8 @@
                 width .4s cubic-bezier(1,-0.09,0,1.02) .2s;
   }
 
-  &__item:hover::before {
+  &__item:hover::before,
+  &__item--active:before {
     transform: scaleY(1);
     width: 100%;
   }
