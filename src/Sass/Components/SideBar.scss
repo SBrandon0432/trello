@@ -35,6 +35,7 @@
 
   &__link:link,
   &__link:visited {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -42,6 +43,7 @@
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.4rem 4.5rem;
+    z-index: 10;
   }
 
 
