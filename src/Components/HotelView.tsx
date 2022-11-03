@@ -9,18 +9,19 @@ const Main = () => {
   return (
     <main className="hotel-view">
       <div className="gallery">
-        <figure className="gallery__item">
-          <img src={image1}/>
+        <figure className="gallery__item" >
+          <img src={image1} className = "gallery__photo"  alt ='hotel1'/>
         </figure>
+
+        <figure className="gallery__item" >
+          <img src={image2} className = "gallery__photo" alt ='hotel2'/>
+        </figure>
+
+        <figure className="gallery__item">
+          <img src={image3} className = "gallery__photo"  alt ='hotel3'/>
+        </figure>
+
       </div>
-
-
-
-
-
-
-
-
 
     </main>
   )
