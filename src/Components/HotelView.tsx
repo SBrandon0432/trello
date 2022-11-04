@@ -3,7 +3,7 @@ import image2 from '../Assets/img/hotel-2.jpg'
 import image3 from '../Assets/img/hotel-3.jpg'
 
 
-const Main = () => {
+const HotelView = () => {
 
 
   return (
@@ -29,4 +29,4 @@ const Main = () => {
 
 
 
-export default Main;
+export default HotelView;
