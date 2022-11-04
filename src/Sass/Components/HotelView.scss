@@ -14,6 +14,29 @@
 
   }
 
+  .Overview {
+    display: flex;
+    align-items: center;
+
+
+    &__Heading {
+
+    }
+
+    &__Stars {
+      padding-left: 1rem;
+      padding-top: 0.4rem;
+      display: flex;
+      width: 12rem;
+
+
+    }
+
+    &__icon {
+      height: 1rem;
+    }
+
+  }
 
 
 

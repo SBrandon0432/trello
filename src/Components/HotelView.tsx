@@ -24,33 +24,40 @@ const HotelView = () => {
       </div>
 
       <div className='Overview'>
-        <h1 className='Overview__heading'>
+        <h1 className='Overview__Heading'>
           Hotel Las Palmas
         </h1>
 
-        <div className='Overview__Star'>
+        <div className='Overview__Stars'>
 
-          <svg className='side-nav__icon'>
+          <svg className='Overview__icon'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='side-nav__icon'>
+          <svg className='Overview__icon'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='side-nav__icon'>
+          <svg className='Overview__icon'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='side-nav__icon'>
+          <svg className='Overview__icon'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='side-nav__icon'>
+          <svg className='Overview__icon'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
         </div>
+      </div>
+
+      <div className='Overview__Location'>
+       <svg className='Overview__icon'>
+          <use xlinkHref={`${iconSprite}#icon-location-pin`}></use>
+        </svg>
+          <button className='btn-inline'> </button>
       </div>
 
     </main>
