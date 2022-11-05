@@ -56,8 +56,15 @@ const HotelView = () => {
       <div className='Overview__Location'>
        <svg className='Overview__icon'>
           <use xlinkHref={`${iconSprite}#icon-location-pin`}></use>
+
         </svg>
-          <button className='btn-inline'> </button>
+          <button className='btn-inline'>Albuferia,Portugal</button>
+      </div>
+
+      <div className='Overview__Rating'>
+        <div className='Overview__rating '>
+
+        </div>
       </div>
 
     </main>
