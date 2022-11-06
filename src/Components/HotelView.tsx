@@ -62,8 +62,11 @@ const HotelView = () => {
       </div>
 
       <div className='Overview__Rating'>
-        <div className='Overview__rating '>
-
+        <div className='Overview__Rating__Number'>
+          8.6
+        </div>
+        <div className='Overview__Rating__votes'>
+          429 votes
         </div>
       </div>
 
