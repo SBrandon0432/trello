@@ -15,51 +15,35 @@
   }
 
   .Overview {
-    display: flex;
-    align-items: center;
-
 
     &__Heading {
 
     }
 
-    &__Stars {
-      padding-left: 1rem;
-      padding-top: 0.3rem;
-      display: flex;
-      width: 14rem;
+    &__icon-star,
+    &__icon-location  {
+      width: 1.75rem;
+      height: 1.75rem;
+      fill: $color-primary;
+    }
 
+    &__Location {
 
     }
 
-    &__icon {
-      height: 1rem;
+    &__rating {
+
     }
 
+    &__Rating-Average {
+
+    }
+
+    &__Rating-Count {
+
+    }
   }
 
-.Overview__Location {
-
-  &__icon {
-
-  }
-
-}
-
-
-.Overview__Rating {
-
-
-  &__Number {
-
-  }
-
-
-  &__Votes {
-
-  }
-
-}
 
 
 

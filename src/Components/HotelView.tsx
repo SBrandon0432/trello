@@ -30,23 +30,23 @@ const HotelView = () => {
 
         <div className='Overview__Stars'>
 
-          <svg className='Overview__icon'>
+          <svg className='Overview__icon-star'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='Overview__icon'>
+          <svg className='Overview__icon-star'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='Overview__icon'>
+          <svg className='Overview__icon-star'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='Overview__icon'>
+          <svg className='Overview__icon-star'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
-          <svg className='Overview__icon'>
+          <svg className='Overview__icon-star'>
             <use xlinkHref={`${iconSprite}#icon-star`}></use>
           </svg>
 
@@ -54,7 +54,7 @@ const HotelView = () => {
       </div>
 
       <div className='Overview__Location'>
-       <svg className='Overview__icon'>
+       <svg className='Overview__icon-location'>
           <use xlinkHref={`${iconSprite}#icon-location-pin`}></use>
 
         </svg>
@@ -62,10 +62,10 @@ const HotelView = () => {
       </div>
 
       <div className='Overview__Rating'>
-        <div className='Overview__Rating__Number'>
+        <div className='Overview__Rating-Average'>
           8.6
         </div>
-        <div className='Overview__Rating__votes'>
+        <div className='Overview__Rating-Count'>
           429 votes
         </div>
       </div>
