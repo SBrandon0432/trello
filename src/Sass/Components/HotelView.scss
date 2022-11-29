@@ -17,8 +17,13 @@
   .Overview {
     display: flex;
 
+
     &__Heading {
 
+    }
+
+    &__Stars {
+      flex: 1;
     }
 
     &__icon-star,
@@ -29,7 +34,6 @@
     }
 
     &__Location {
-
     }
 
     &__rating {
