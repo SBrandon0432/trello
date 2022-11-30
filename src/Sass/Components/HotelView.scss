@@ -16,7 +16,7 @@
 
   .Overview {
     display: flex;
-
+    border-bottom: 1px solid $color-gray-light-2;
 
     &__Heading {
 
@@ -24,7 +24,6 @@
 
     &__Stars {
        margin-right: auto;
-       background-color: red;
     }
 
     &__icon-star,
