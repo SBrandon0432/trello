@@ -1,3 +1,11 @@
 .btn-inline {
+  border: none;
+  font-size: inherit;
+  color: $color-primary;
+  border-bottom: 1px solid currentColor;
 
+
+  &:hover {
+    color: $color-gray-dark-1;
+  }
 }
