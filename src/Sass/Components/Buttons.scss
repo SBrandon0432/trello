@@ -6,6 +6,8 @@
   padding: 2px;
   display: inline-block;
   background-color: transparent;
+  cursor: pointer;
+  transition: all .2s;
 
   &:hover {
     color: $color-gray-dark-1;
