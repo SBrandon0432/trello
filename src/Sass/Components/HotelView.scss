@@ -49,16 +49,27 @@
       margin-right: .5rem;
     }
 
-    &__rating {
-
+    &__Rating {
+      background-color: $color-primary;
+      margin-left: 3rem;
+      color: #fff;
+      align-self: stretch;
+      // display: flex;
+      // flex: 0 1 1;
+      // flex-direction: column;
+      // align-items: center;
+      // margin-right: 1rem;
     }
 
     &__Rating-Average {
+      font-size: 2.25rem;
+      font-weight: 300;
 
     }
 
     &__Rating-Count {
-
+      font-size: .8rem;
+      text-transform: uppercase;
     }
   }
 
