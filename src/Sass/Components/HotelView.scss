@@ -16,7 +16,8 @@
 
   .Overview {
     display: flex;
-    border-bottom: 1px solid $color-gray-light-2;
+    align-items: center;
+    border-bottom: 2px solid $color-gray-light-3;
 
     &__Heading {
 
