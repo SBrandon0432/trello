@@ -33,13 +33,20 @@
     }
 
     &__icon-star,
-    &__icon-location  {
+    &__icon-location {
       width: 1.75rem;
       height: 1.75rem;
       fill: $color-primary;
     }
 
     &__Location {
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+    }
+
+    &__icon-location {
+      margin-right: .5rem;
     }
 
     &__rating {
