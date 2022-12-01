@@ -1,7 +1,8 @@
 .detail {
   display: flex;
-  background-color: red;
+  background-color: $color-gray-light-1;
   padding: 4.5rem;
+  border-bottom: $--line;
 }
 
 .description {
