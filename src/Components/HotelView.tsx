@@ -2,7 +2,7 @@ import image1 from '../Assets/img/hotel-1.jpg'
 import image2 from '../Assets/img/hotel-2.jpg'
 import image3 from '../Assets/img/hotel-3.jpg'
 import iconSprite from '../Assets/img/sprite.svg'
-
+import HotelDescription from './HotelDescription'
 
 const HotelView = () => {
 
@@ -69,7 +69,7 @@ const HotelView = () => {
           </div>
         </div>
       </div>
-
+      <HotelDescription />
     </main>
   )
 }
