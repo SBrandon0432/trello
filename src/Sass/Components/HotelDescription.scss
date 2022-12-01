@@ -1,13 +1,16 @@
-
 .detail {
   display: flex;
   background-color: red;
+  padding: 4.5rem;
 }
 
 .description {
   background-color: green;
+  flex: 0 0 60%; // grow | shrik | basis
+  margin-right: 4.5rem;
 }
 
 .user-reviews {
   background-color: blue;
+  flex: 1;
 }
