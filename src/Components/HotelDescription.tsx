@@ -6,7 +6,7 @@ const HotelDescription = (props: any) => {
 
 
   return (
-    <div className="description">
+    <div className="hotel-description">
 
     </div>
   )
